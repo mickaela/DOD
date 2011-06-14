@@ -18,12 +18,12 @@ public class World {
     World(){
         Location bb = new Location("by a babbling brook");
         Location mm = new Location("up in some misty mountains");
-        Location dc = new Location("in a Dragons cave - look, there's a dragon!!");
+        Location dc = new Location("in the cave of Gwent the dragon");
         Location sf = new Location("in a sunny field");
         Location go = new Location("by a great oak");
         Location ms = new Location("in some murky marshes");
-        Location tr = new Location("in some deserted tower ruins - you have found a sword!");
-        Location hc = new Location("on top of some high cliffs - you have found a lamp!");
+        Location tr = new Location("in some deserted tower ruins");
+        Location hc = new Location("on top of some high cliffs");
         Location lb = new Location("on a lonely beach");
         
         bb.setExits(sf,mm,null,null);
